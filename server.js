@@ -37,6 +37,6 @@ app.post('/student1',(req,res)=>{
 
 });
 
-app.listen(2000,()=>{
-    console.log("server started");
+app.listen(dbconfig.PORT,()=>{
+    console.log("server started at port",dbconfig.PORT);
 })
