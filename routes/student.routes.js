@@ -9,8 +9,7 @@ module.exports = (app)=>{
     // create student 
     app.post('/student',student.create);
 
-   
-    // Retrievestudent data
+   // Retrievestudent data
 
     app.get('/student',student.findAll);
 
